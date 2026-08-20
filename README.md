@@ -1,6 +1,5 @@
 # DAA-lab
-Implimentation of DAA algorithms#
-Practical 1: Sorting Algorithms
+# Practical 1: Sorting Algorithms
 This practical implements Selection Sort, Bubble Sort, and Merge Sort, insertion sort, quick sort Each algorithm includes implementation, time complexity analysis (best, worst, and average cases), and execution time measurement.
 
 # Practical 2: Linear Search
