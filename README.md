@@ -14,7 +14,7 @@ Interactive: run the script and follow prompts to provide the list and target va
 Demo: run the script with a demo flag (if provided in the script).
 linear search
 binary search
-Practical 3: Max-Heap and Min-Heap Sort
+# Practical 3: Max-Heap and Min-Heap Sort
 Aim
 
 To implement Min-Heap and Max-Heap Sort in Python.
