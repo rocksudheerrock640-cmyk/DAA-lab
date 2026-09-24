@@ -31,3 +31,34 @@ CONCLUSION:
 From this practical, we understood the difference between iterative and recursive approaches for solving a problem. Both methods are useful for calculating factorials, and this practical helped us understand how loops and recursion can be used to solve the same problem. CONCLUSION:
 
 From this practical, we understood the difference between iterative and recursive approaches for solving a problem. Both methods are useful for calculating factorials, and this practical helped us understand how loops and recursion can be used to solve the same problem.
+
+# practical-5: Knapsack Problem
+This project is a Python program that solves the 0/1 Knapsack Problem using Dynamic Programming. The program takes the number of items, their weights, values, and the maximum capacity of the knapsack as input. It then finds the maximum value that can be carried without exceeding the given capacity. The program also displays the selected items and the execution time. This project is simple and useful for understanding the basic concept of Dynamic Programming in Python.
+
+How to Run
+
+To run the program, make sure Python 3 is installed on your computer. Save the code in a file named knapsack.py and run it using the command python knapsack.py in the terminal.
+
+Example
+
+For 4 items with weights 2, 3, 4, 5 and values 3, 4, 5, 6, with a knapsack capacity of 5, the maximum value is 7 and items 1 and 2 are selected.
+
+Conclusion
+
+This project demonstrates how Dynamic Programming can be used to solve the 0/1 Knapsack Problem. It helps in finding the best combination of items while keeping the total weight within the given capacity. The project is simple and helpful for learning Python and Dynamic Programming.
+
+# PRACTICAL-6 MATRIX CHAIN MULTIPLICATION
+Matrix Chain Multiplication is a Dynamic Programming problem that finds the most efficient way to multiply a sequence of matrices.
+
+The main objective is to determine the optimal order of matrix multiplication that minimizes the total number of scalar multiplications. The order of the matrices remains unchanged; only the placement of parentheses is optimized.
+
+This project implements the Matrix Chain Multiplication algorithm using Python and Dynamic Programming.
+
+# PRACTICAL 7:Coin Change Problem Using Dynamic Programming
+This project provides a Python solution to the Coin Change Problem using Dynamic Programming. The program determines the minimum number of coins required to make a given target amount from a set of available coin denominations.
+
+The algorithm builds a dynamic programming table to store the minimum coins needed for every amount from 0 to the target value. By reusing previously computed results, it efficiently finds the optimal solution and avoids redundant calculations.
+
+If the target amount can be formed, the program returns the minimum number of coins required. Otherwise, it returns -1 to indicate that no valid combination exists.
+
+Features Efficient Dynamic Programming approach Finds the minimum number of coins required Handles impossible cases by returning -1 Simple and easy-to-understand Python implementation Complexity Time Complexity: O(n × amount) Space Complexity: O(amount) This project is useful for learning Dynamic Programming concepts, practicing algorithm design, and preparing for coding interviews.
