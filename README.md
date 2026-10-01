@@ -59,6 +59,15 @@ This project provides a Python solution to the Coin Change Problem using Dynamic
 
 The algorithm builds a dynamic programming table to store the minimum coins needed for every amount from 0 to the target value. By reusing previously computed results, it efficiently finds the optimal solution and avoids redundant calculations.
 
+# PRACT8-(DAA)
+SUMMARY :
+
+Graph traversal is an important technique used to visit all the vertices of a graph systematically. DFS explores a graph deeply by visiting a vertex and then recursively visiting its unvisited neighbors. BFS explores the graph level by level using a queue data structure. Both DFS and BFS have a time complexity of O(V + E), where V is the number of vertices and E is the number of edges. These searching techniques are widely used in path finding, network analysis, and many other computer science applications.
+
+CONCLUSION :
+
+The graph traversal program successfully implements both DFS and BFS searching techniques using Python. DFS uses a depth-based approach, while BFS visits vertices level by level. Both methods efficiently traverse the vertices and edges of a graph. The program accepts user input, making it flexible for different graph structures and starting vertices. Thus, DFS and BFS are useful and fundamental techniques for solving various graph-based problems.
+
 If the target amount can be formed, the program returns the minimum number of coins required. Otherwise, it returns -1 to indicate that no valid combination exists.
 
 Features Efficient Dynamic Programming approach Finds the minimum number of coins required Handles impossible cases by returning -1 Simple and easy-to-understand Python implementation Complexity Time Complexity: O(n × amount) Space Complexity: O(amount) This project is useful for learning Dynamic Programming concepts, practicing algorithm design, and preparing for coding interviews.
